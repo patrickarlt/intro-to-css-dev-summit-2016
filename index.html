@@ -42,257 +42,341 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section data-background="img/title.png" data-background-size="cover">
+					<br><br>
 					<h1>Intro to CSS for Geographers</h1>
-					<h3><a href="https://patrickarlt.com">Patrick Arlt</a> and <a href="http://johngravois.com/">John Gravois</a></h3>
-					<p>
-						<small><a href="http://bit.ly/1Oh4BDd">http://bit.ly/1Oh4BDd</a></small>
-					</p>
+					<p>Patrick Arlt | <a href="http://twitter.com/patrickarlt">@patrickarlt</a></p>
+					<p><a href="http://bit.ly/1Oh4BDd">http://bit.ly/1Oh4BDd</a></p>
 				</section>
 
 				<section data-background="img/bg-1.png" data-background-size="cover">
-					<h2>Hello There</h2>
-					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-					</p>
-				</section>
-
-				<!-- Example of nested vertical slides -->
-				<section data-background="img/bg-2.png" data-background-size="cover">
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-
-					<section data-background="img/bg-3.png" data-background-size="cover">
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-
-					<section data-background="img/bg-5.png" data-background-size="cover">
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section data-background="img/bg-5.png" data-background-size="cover">
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-					</p>
-				</section>
-
-				<section data-background="img/bg-6.png" data-background-size="cover">
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
-
-				<section data-background="img/bg-7.png" data-background-size="cover">
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown data-background="img/bg-1.png" data-background-size="cover">
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section data-background="img/bg-2.png" data-background-size="cover">
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-
-					<section data-background="img/bg-3.png" data-background-size="cover">
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-					</section>
-				</section>
-
-				<section data-background="img/bg-4.png" data-background-size="cover">
-					<h2>Pretty Code</h2>
-					<pre><code class="hljs" data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section data-background="img/bg-5.png" data-background-size="cover">
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-
-				<section data-background="img/bg-6.png" data-background-size="cover">
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section data-background="img/bg-7.png" data-background-size="cover">
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
-
-				<section data-background="img/bg-1.png" data-background-size="cover">
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section data-background="img/bg-2.png" data-background-size="cover">
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section data-background="img/bg-3.png" data-background-size="cover">
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
+					<h2>Origin Story</h2>
 
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						Talk with John last year&hellip;
 					</aside>
 				</section>
 
-				<section data-background="img/bg-4.png" data-background-size="cover">
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<p>Lots of tools. Very little fundamentals.</p>
+					<p class="fragment">This talk is all fundamentals</p>
 				</section>
 
-				<section data-background="img/bg-5.png" data-background-size="cover">
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2>First Some Notes</h2>
+					<p>Lots of supplimental info in these slides. Designed to help you keep learning beyond this talk.</p>
 				</section>
 
-				<section data-state="customevent" data-background="img/bg-6.png" data-background-size="cover">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2>CSS is Hard</h2>
+					<p>Closer to art then computer science</p>
+					<p>Lots of hard, unintuitive concepts</p>
+					<p>It has taken me <em>years</em> to amass this knowlage</p>
 				</section>
 
-				<section data-background="img/bg-7.png" data-background-size="cover">
-					<h2>Take a Moment</h2>
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2>Lets do stuff with CSS!</h2>
+					<p class="fragment">Customize Esri Apps</p>
+					<p class="fragment">Use Frameworks</p>
+					<p class="fragment">Build Web Pages</p>
+					<p class="fragment">Make Apps</p>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2>Basics</h2>
+				</section>
+
+				<section data-transition="none" data-background="img/bg-1.png" data-background-size="cover">
+					<p>"rule"</p>
+					<pre style="font-size: 125%;"><code class="css">html, body, #map {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}</code></pre>
+				</section>
+
+				<section data-transition="none" data-background="img/bg-1.png" data-background-size="cover">
+					<p>"selector"</p>
+					<pre style="font-size: 125%;"><code class="css">html, body, #map
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;</code></pre>
+				</section>
+
+				<section data-transition="none" data-background="img/bg-1.png" data-background-size="cover">
+					<p>"declaration"</p>
+					<pre style="font-size: 125%;"><code class="css">html, body, #map {
+&nbsp;
+&nbsp;
+&nbsp;
+}</code></pre>
+				</section>
+
+				<section data-transition="none" data-background="img/bg-1.png" data-background-size="cover">
+					<p>"property"</p>
+					<pre style="font-size: 125%;"><code class="css">html, body, #map {
+  margin:
+&nbsp;
+&nbsp;
+}</code></pre>
+				</section>
+
+				<section data-transition="none" data-background="img/bg-1.png" data-background-size="cover">
+					<p>"value"</p>
+					<pre style="font-size: 125%;"><code class="css">html, body, #map {
+  margin: 0;
+&nbsp;
+&nbsp;
+}</code></pre>
+				</section>
+
+				<section data-transition="none" data-background="img/bg-1.png" data-background-size="cover">
+					<p>"property"</p>
+					<pre style="font-size: 125%;"><code class="css">html, body, #map {
+  margin: 0;
+  width:
+&nbsp;
+}</code></pre>
+				</section>
+
+				<section data-transition="none" data-background="img/bg-1.png" data-background-size="cover">
+					<p>"value"</p>
+					<pre style="font-size: 125%;"><code class="css">html, body, #map {
+  margin: 0;
+  width: 100%;
+&nbsp;
+}</code></pre>
+				</section>
+
+				<section data-transition="none" data-background="img/bg-1.png" data-background-size="cover">
+					<p>"property"</p>
+					<pre style="font-size: 125%;"><code class="css">html, body, #map {
+  margin: 0;
+  width: 100%;
+  height:
+}</code></pre>
+				</section>
+
+				<section data-transition="none" data-background="img/bg-1.png" data-background-size="cover">
+					<p>"value"</p>
+					<pre style="font-size: 125%;"><code class="css">html, body, #map {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}</code></pre>
+				</section>
+
+				<section data-transition="none" data-background="img/bg-1.png" data-background-size="cover">
+					<p>"rule"</p>
+					<pre style="font-size: 125%;"><code class="css">html, body, #map {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}</code></pre>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2>How CSS Works</h2>
+					<p><em>Cascading</em> Style Sheets</p>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><em>Cascading</em> Style Sheets</h2>
+					<p>Styles from different sources <em>cascade</em> and coalesce into the final styles for an HTML tag.</p>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2>A typical cascade</h2>
+					<ul>
+						<li>Browser default stylesheet</li>
+						<li>User defined stylesheets</li>
+						<li>Stylesheets you include with <code>&lt;link&gt;</code></li>
+						<li><code>&lt;style&gt;</code> tag</li>
+						<li>Inline <code>&lt;style&gt;</code> attributes <code>&lt;div style="..."&gt;</code></li>
+						<li>CSS values with <code>!important</code></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2>CSS Specificity</h2>
+					<ol>
+						<li><code>!important</code></li>
+						<li style="white-space: nowrap;">Inline style <code>&lt;div style="..."&gt;</code></li>
+						<li><code>&lt;style&gt;</code> and <code>&lt;link&gt;</code> tags</li>
+						<li>Selector determine specificity</li>
+					</ol>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2>Selector Specificity</h2>
+					<ol>
+						<li>id - <code>#map</code></li>
+						<li style="white-space: nowrap;">class - <code>.container</code></li>
+						<li>tag - <code>body</code></li>
+					</ol>
 					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
+						<a href="https://josh.github.io/css-explain/">CSS Explain</a>
 					</p>
 				</section>
 
 				<section data-background="img/bg-1.png" data-background-size="cover">
-					<h2>Much more</h2>
+					<p>In a specificity tie the last loaded rule wins.</p>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h1>Inspecting CSS</h1>
+					<p>Right click on something you want to change click "Inspect Element"</p>
+					<a href="http://storymaps.esri.com/stories/solarplants/">Explore a storymap</a>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h1>Building our App</h1>
+					<img src="img/app.png" alt="Our App" style="border: none; background: transparent;">
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/revage/edit">Block</a> vs <a href="http://jsbin.com/josuba/edit">Inline</a></h2>
 					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
+						<li><a href="http://www.impressivewebs.com/difference-block-inline-css/">The Difference Between “Block” and “Inline”</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements">Block-level elements</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements">Inline elements</a></li>
+						<li><a href="http://learnlayout.com/display.html">Learn CSS Layout: the "display" property</a></li>
 					</ul>
 				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/ficatu/edit">Units</h2>
+						<ul>
+							<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/length">Full unit reference</a></li>
+							<li><a href="https://css-tricks.com/the-lengths-of-css/">The Lengths of CSS</a></li>
+							<li><a href="http://www.quirksmode.org/css/units-values/">Unit and Values - QuirksMode</a></li>
+						</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/sawoho/3/edit">Floats</a></h2>
+					<ul>
+						<li><a href="https://css-tricks.com/all-about-floats/">All About Floats</a></li>
+						<li><a href="http://alistapart.com/article/css-floats-101">CSS Floats 101</a></li>
+						<li><a href="http://learnlayout.com/float.html">Learn CSS Layout: float</a></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/nisuzu/6/edit">Problems with Floats</a></h2>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/rowoca/4/edit">Clearing Floats</a></h2>
+					<ul>
+						<li><a href="http://learnlayout.com/clear.html">Learn CSS Layout: clear</a></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/sihovo/7/edit">Clearfix</a></h2>
+					<ul>
+						<li><a href="http://learnlayout.com/clearfix.html">Learn CSS Layout: clearfix</a></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/yufimes/3/edit">The Box Model</a></h2>
+					<ul>
+						<li><a href="https://css-tricks.com/the-css-box-model/">The CSS Box Model</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model">Introduction to the CSS box model</a></li>
+						<li><a href="http://learnlayout.com/box-model.html">Learn CSS Layout: the box model</a></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/nodufe/2/edit">Box Sizing</a></h2>
+					<ul>
+						<li><a href="http://learnlayout.com/box-sizing.html">Learn CSS Layout: box-sizing</a></li>
+						<li><a href="http://www.paulirish.com/2012/box-sizing-border-box-ftw/">* { Box-sizing: Border-box } FTW</a></li>
+						<li><a href="https://css-tricks.com/box-sizing/">Box Sizing</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing">box-sizing</a></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/livofev/4/edit">Flexbox</a></h2>
+					<ul>
+						<li><a href="http://flexboxfroggy.com/">Flexbox Froggy</a></li>
+						<li><a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties">A Visual Guide to CSS3 Flexbox Properties</a></li>
+						<li><a href="http://learnlayout.com/flexbox.html">Learn CSS Layout: flexbox</a></li>
+						<li><a href="http://caniuse.com/#feat=flexbox">Can I Use: flexbox</a></li>
+						<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes">Using CSS flexible boxes</a></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/pitemo/4/edit">Margin, Padding and Borders</a></h2>
+					<ul>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing">Mastering margin collapsing</a></li>
+						<li><a href="https://css-tricks.com/what-you-should-know-about-collapsing-margins/">What You Should Know About Collapsing Margins</a></li>
+						<li><a href="http://stackoverflow.com/a/20624095/449686">Compare block elements to pictures hanging on a wall</a></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/gibuhe/2/edit">Media Queries and Responsive Design</a></h2>
+					<ul>
+						<li><a href="http://mediaqueri.es/">Responsive design gallery</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">Using media queries</a></li>
+						<li><a href="https://css-tricks.com/snippets/css/media-queries-for-standard-devices/">Media Queries for Standard Devices</a></li>
+						<li><a href="http://learnlayout.com/media-queries.html">Learn CSS Layout: media queries</a></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/babiwa/2/edit">Positioning</a></h2>
+					<ul>
+						<li><a href="http://learnlayout.com/position.html">Learn CSS Layout: position</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">position</a></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/gerexud/3/edit">Typography (Choosing Fonts)</a></h2>
+					<ul>
+						<li><a href="https://www.google.com/fonts">Google Fonts</a></li>
+						<li><a href="http://femmebot.github.io/google-type/">Google Web Fonts Typographic Project</a></li>
+						<li><a href="http://fontpair.co/">Font Pair</a></li>
+						<li><a href="http://www.labnol.org/internet/best-google-font-combinations/28987/">Font tool roundup</a></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/dugapa/6/edit">Typography (Sizing Type)</a></h2>
+					<ul>
+						<li><a href="http://type-scale.com/">TypeScale</a></li>
+						<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A More Modern Scale for Web Typography</a></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/jafeza/3/edit">Adding Color</a></h2>
+					<ul>
+						<li><a href="https://flatuicolors.com/">Flat UI Colors</a></li>
+						<li><a href="http://esri.github.io/calcite-web/color/">Calcite Web Colors</a></li>
+						<li><a href="http://jxnblk.com/colorable/demos/matrix/">Color Pairing Matrix</a></li>
+						<li><a href="https://color.adobe.com/create/color-wheel/">Adobe Kuler</a></li>
+						<li><a href="http://www.colourlovers.com/palettes">Color Lovers</a></li>
+					</ul>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2><a href="http://jsbin.com/gixaro/8/edit">Adding JavaScript</a></h2>
+				</section>
+
+				<section data-background="img/bg-1.png" data-background-size="cover">
+					<h2>Keep Learning!</h2>
+					<p><a href="http://bit.ly/1Oh4BDd">http://bit.ly/1Oh4BDd</a></p>
+				</section>
+
+				<section data-background="img/survey.png" data-background-size="cover"></section>
 
 				<section data-background="img/end.png" data-background-size="cover"></section>
 
